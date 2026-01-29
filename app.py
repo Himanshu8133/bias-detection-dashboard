@@ -130,7 +130,7 @@ if uploaded_file:
         # ------------------------------------------
         # VERY SMALL THUMBNAIL GRAPH
         # ------------------------------------------
-        st.subheader("📈 Bias Concentration (Thumbnail View)")
+        st.subheader("Bias Concentration (Thumbnail View)")
 
         col_thumb, _ = st.columns([1, 7])
 
@@ -250,3 +250,4 @@ if uploaded_file:
 
 else:
     st.info("Upload a CSV file from the sidebar to begin analysis.")
+
